@@ -18,12 +18,13 @@
 }
 
 .banner.section .row.flex-col.center {
-    gap: 0;
+    gap: 20px;
 }
 
 .banner h1,
 .banner p {
     text-align: center;
+    width: 55%;
 }
 
 .banner .btn-wrapper {
