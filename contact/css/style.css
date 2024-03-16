@@ -16,3 +16,10 @@
 .banner.section .row {
     min-height: 80vh;
 }
+
+@media (max-width: 560px) {
+    .banner.section, 
+    .banner.section .row {
+        min-height: 100vh;
+    }
+}
