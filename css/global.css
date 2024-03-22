@@ -247,13 +247,13 @@ img.border-radius {
     gap: 10px;
 }
 
-.contact .legal .legal-item {
+.legal-item {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.contact .legal .legal-item .icon {
+.legal-item .icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -264,14 +264,14 @@ img.border-radius {
     height: 30px;
 }
 
-.contact .legal .legal-item a, 
-.contact .legal .legal-item p {
+.legal-item a, 
+.legal-item p {
     color: var(--black);
     font-size: 16px;
     transition: var(--transition);
 }
 
-.contact .legal .legal-item a:hover {
+.legal-item a:hover {
     color: var(--primary);
     transition: var(--transition);
 }
